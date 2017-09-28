@@ -8,8 +8,9 @@ argparse==1.4.0
 certifi==2017.7.27.1
 chardet==3.0.4
 click==6.7
-facebook-sdk==3.0.0-alpha
+git+https://github.com/mobolic/facebook-sdk.git#egg=facebook-sdk
 idna==2.6
 itsdangerous==0.24
 requests==2.18.4
 urllib3==1.22
+PyMySQL==0.7.11
