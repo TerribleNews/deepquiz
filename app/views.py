@@ -2,12 +2,12 @@ from facebook import get_user_from_cookie, GraphAPI
 from flask import g, render_template, redirect, request, session, url_for
 
 from app import app, db
-from models import User
+from .models import User
 
 # Facebook app details
-FB_APP_ID = ''
-FB_APP_NAME = ''
-FB_APP_SECRET = ''
+FB_APP_ID = '367035226783161'
+FB_APP_NAME = 'Test'
+FB_APP_SECRET = '8a9d21dabb583f397621315576a83408'
 
 
 @app.route('/')
