@@ -6,6 +6,11 @@
               margin-left: auto; margin-right: auto;">
     </p>
     <h3>Hello, {{ user['name'] }}.</h3>
+    <ul>
+        {% for friend in friends['data'] %}
+            <li>{{ friend }}</li>
+        {% endfor %}
+    </ul>
     <a href="/logout" id="logout">Log out</a>
     <script>
         document.getElementById('logout').onclick = function() {
